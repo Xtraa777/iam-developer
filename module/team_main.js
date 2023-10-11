@@ -33,7 +33,7 @@ docs.forEach(async (doc) => {
   let temp_html = `
   <div class="col">
     <div class="card" style="width: 18rem" id="membercard-${docsId}">
-      <img src="${image_url}" class="card-img-top" width="300" height"400" alt="..."/>
+      <img src="${image_url}" class="card-img-top" width="300" height="400" alt="..."/>
       <div class="card-body">
         <h5 class="card-title" id="name">${name}</h5>
         <div class="card-container">
